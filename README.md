@@ -9,8 +9,8 @@ func MirrorImage(in image.Image, ox bool, oy bool) image.Image
 ```
 
 - `in` - object for mirror
-- `ox` - if `true` when image mirrored from left to right
-- `oy` - if `true` when image mirrored from top to bottom
+- `ox` - if `true` when image mirrored horizontally
+- `oy` - if `true` when image mirrored vertically
 
 ## Simple usage
 
